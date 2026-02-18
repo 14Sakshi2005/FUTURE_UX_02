@@ -22,12 +22,13 @@ To design a clean, modern, and user-friendly mobile interface that allows custom
 - Prototype interactions
 
 ##  Screens
+Login
+Event
+Staff
+Date & Time
+Booking Confirmation
+Booking Successful
 
-![Login](screenshots/login.png)
-![Event](screenshots/event.png)
-![Staff](screenshots/staff.png)
-![Date](screenshots/date.png)
-
-##  Author
-Sakshi Yadav – Computer Engineering Student (SPPU)
+## Author
+Sakshi Yadav 
 
