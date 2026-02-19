@@ -29,6 +29,9 @@ To design a clean, modern, and user-friendly mobile interface that allows custom
 5. Booking Confirmation
 6. Booking Successful
 
+##  Figma Prototype Link:
+    https://www.figma.com/proto/8IVmzgKwb7Q5rezrdfvQrV/Cafe-Appointment-Booking-App-%E2%80%93-UI-Design?node-id=0-1&t=3v8B7MojpfoqZx64-1
+
 ## Author
 Sakshi Yadav 
 
