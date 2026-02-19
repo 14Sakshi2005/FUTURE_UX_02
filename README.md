@@ -24,7 +24,7 @@ To design a clean, modern, and user-friendly mobile interface that allows custom
 ##  Screens
 Login
 Event
-Staff
+Select Staff
 Date & Time
 Booking Confirmation
 Booking Successful
