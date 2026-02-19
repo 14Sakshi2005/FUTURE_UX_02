@@ -22,12 +22,12 @@ To design a clean, modern, and user-friendly mobile interface that allows custom
 - Prototype interactions
 
 ##  Screens
-Login
-Event
-Select Staff
-Date & Time
-Booking Confirmation
-Booking Successful
+1. Login
+2. Event
+3. Select Staff
+4. Date & Time
+5. Booking Confirmation
+6. Booking Successful
 
 ## Author
 Sakshi Yadav 
