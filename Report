@@ -1,0 +1,31 @@
+## UX Case Study – Cafe Appointment Booking App
+
+# Problem
+
+Many local cafes still manage reservations through phone calls, WhatsApp messages, or handwritten registers. 
+This leads to missed bookings, scheduling conflicts, poor customer experience, and loss of revenue.
+
+#  Objective
+
+The goal was to design a mobile-first appointment booking interface that is simple, fast, and easy for first-time users while helping businesses manage reservations efficiently.
+
+#  Target Users
+
+* Cafe customers aged 18–40
+* Busy professionals who prefer quick digital booking
+* First-time users unfamiliar with complex apps
+
+#  User Flow
+
+Login → Select Service → Choose Host → Pick Date & Time → Confirm Booking
+
+#  Design Decisions
+
+* Minimal color palette to build trust
+* Large touch-friendly buttons for mobile usability
+* Step-by-step booking flow to reduce cognitive load
+* Clear visual hierarchy for faster decision making
+
+#  Outcome
+
+The final design provides a smooth, intuitive booking experience that reduces friction and allows customers to complete reservations in just a few taps.
