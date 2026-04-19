@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cafe Booking App</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew Haven Cafe Booking</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -13,58 +13,62 @@
   <!-- LOGIN SCREEN -->
   <section id="login" class="screen active">
     <h1>Brew Haven ☕</h1>
-    <p>Book Your Table in Seconds</p>
+    <p>Book your table in seconds</p>
 
-    <button onclick="goTo('home')" class="primary">Login with Phone</button>
-    <button onclick="goTo('home')" class="secondary">Continue as Guest</button>
+    <button class="primary" onclick="goTo('home')">Login with Phone</button>
+    <button class="secondary" onclick="goTo('home')">Continue as Guest</button>
   </section>
 
   <!-- HOME SCREEN -->
   <section id="home" class="screen">
     <h2>Welcome to Brew Haven</h2>
+    <p>Select a service</p>
 
     <div class="grid">
-      <div class="card" onclick="goTo('staff')">Table Booking</div>
-      <div class="card" onclick="goTo('staff')">Meeting Space</div>
-      <div class="card" onclick="goTo('staff')">Birthday</div>
-      <div class="card" onclick="goTo('staff')">Outdoor Seating</div>
+      <div class="card" onclick="goTo('staff')">☕ Table Booking</div>
+      <div class="card" onclick="goTo('staff')">💼 Meeting Space</div>
+      <div class="card" onclick="goTo('staff')">🎉 Birthday</div>
+      <div class="card" onclick="goTo('staff')">🌿 Outdoor Seating</div>
     </div>
   </section>
 
   <!-- STAFF SCREEN -->
   <section id="staff" class="screen">
-    <h2>Select Host</h2>
+    <h2>Select Your Host</h2>
 
     <div class="list">
-      <div class="item" onclick="goTo('date')">Priya ⭐ 4.9</div>
-      <div class="item" onclick="goTo('date')">Rahul ⭐ 4.8</div>
-      <div class="item" onclick="goTo('date')">Aisha ⭐ 4.9</div>
+      <div class="item" onclick="goTo('date')">Priya Sharma ⭐ 4.9</div>
+      <div class="item" onclick="goTo('date')">Rahul Mehta ⭐ 4.8</div>
+      <div class="item" onclick="goTo('date')">Aisha Khan ⭐ 4.9</div>
     </div>
   </section>
 
-  <!-- DATE SCREEN -->
+  <!-- DATE & TIME SCREEN -->
   <section id="date" class="screen">
-    <h2>Select Time</h2>
+    <h2>Select Time Slot</h2>
 
     <div class="grid">
       <button onclick="goTo('confirm')">10:00 AM</button>
       <button onclick="goTo('confirm')">12:00 PM</button>
-      <button onclick="goTo('confirm')">3:00 PM</button>
+      <button onclick="goTo('confirm')">2:00 PM</button>
+      <button onclick="goTo('confirm')">4:00 PM</button>
       <button onclick="goTo('confirm')">6:00 PM</button>
+      <button onclick="goTo('confirm')">8:00 PM</button>
     </div>
   </section>
 
   <!-- CONFIRM SCREEN -->
   <section id="confirm" class="screen">
-    <h2>Confirm Booking</h2>
+    <h2>Confirm Your Booking</h2>
 
     <div class="summary">
-      <p><b>Service:</b> Table for 2</p>
-      <p><b>Host:</b> Priya</p>
-      <p><b>Time:</b> 6:00 PM</p>
+      <p><strong>Service:</strong> Table for 2</p>
+      <p><strong>Host:</strong> Priya Sharma</p>
+      <p><strong>Date:</strong> 24 Feb</p>
+      <p><strong>Time:</strong> 6:00 PM</p>
     </div>
 
-    <button onclick="goTo('success')" class="primary">Confirm</button>
+    <button class="primary" onclick="goTo('success')">Confirm Booking</button>
   </section>
 
   <!-- SUCCESS SCREEN -->
@@ -72,7 +76,7 @@
     <h2>✅ Booking Confirmed!</h2>
     <p>We look forward to serving you ☕</p>
 
-    <button onclick="goTo('home')" class="primary">Back to Home</button>
+    <button class="primary" onclick="goTo('home')">Back to Home</button>
   </section>
 
 </div>
