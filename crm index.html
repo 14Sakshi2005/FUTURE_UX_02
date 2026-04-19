@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRM Dashboard</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #1f2937;
+    color: white;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: #d1d5db;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.sidebar a:hover {
+    color: white;
+}
+
+/* Main */
+.main {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.card h3 {
+    margin: 0;
+    color: gray;
+}
+
+.card h1 {
+    margin: 10px 0 0;
+}
+
+/* Pipeline */
+.pipeline {
+    display: flex;
+    gap: 15px;
+}
+
+.column {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 10px;
+    width: 23%;
+}
+
+.lead {
+    background: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+/* Tasks */
+.tasks {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>AgencyCRM</h2>
+    <a href="#">Dashboard</a>
+    <a href="#">Leads</a>
+    <a href="#">Clients</a>
+    <a href="#">Tasks</a>
+    <a href="#">Analytics</a>
+    <a href="#">Settings</a>
+</div>
+
+<!-- Main -->
+<div class="main">
+
+    <!-- Header -->
+    <div class="header">
+        <h2>Dashboard Overview</h2>
+        <input class="search" placeholder="Search..." />
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+        <div class="card">
+            <h3>Total Leads</h3>
+            <h1>124</h1>
+        </div>
+        <div class="card">
+            <h3>Active Clients</h3>
+            <h1>32</h1>
+        </div>
+        <div class="card">
+            <h3>Pending Follow-ups</h3>
+            <h1>18</h1>
+        </div>
+        <div class="card">
+            <h3>Tasks Due</h3>
+            <h1>7</h1>
+        </div>
+    </div>
+
+    <!-- Pipeline -->
+    <h3>Lead Pipeline</h3>
+    <div class="pipeline">
+
+        <div class="column">
+            <h4>New</h4>
+            <div class="lead">ABC Pvt Ltd<br>₹50k</div>
+        </div>
+
+        <div class="column">
+            <h4>Contacted</h4>
+            <div class="lead">XYZ Corp<br>₹30k</div>
+        </div>
+
+        <div class="column">
+            <h4>Discussion</h4>
+            <div class="lead">TechSoft<br>₹80k</div>
+        </div>
+
+        <div class="column">
+            <h4>Converted</h4>
+            <div class="lead">Alpha Inc<br>₹1L</div>
+        </div>
+
+    </div>
+
+    <!-- Client Table -->
+    <table>
+        <tr>
+            <th>Client</th>
+            <th>Project</th>
+            <th>Status</th>
+            <th>Last Contact</th>
+            <th>Next Follow-up</th>
+        </tr>
+        <tr>
+            <td>ABC Pvt Ltd</td>
+            <td>Website</td>
+            <td>Active</td>
+            <td>Apr 10</td>
+            <td>Apr 20</td>
+        </tr>
+        <tr>
+            <td>XYZ Corp</td>
+            <td>SEO</td>
+            <td>Pending</td>
+            <td>Apr 12</td>
+            <td>Apr 22</td>
+        </tr>
+    </table>
+
+    <!-- Tasks -->
+    <div class="tasks">
+        <h3>Today's Tasks</h3>
+        <p>• Call ABC Client</p>
+        <p>• Send Proposal</p>
+        <p>• Review Campaign</p>
+    </div>
+
+</div>
+
+</body>
+</html>
