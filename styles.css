@@ -1,23 +1,27 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
   background: #FFF7F0;
-  margin: 0;
 }
 
+/* App Container */
 .app {
   max-width: 390px;
   margin: auto;
   padding: 20px;
 }
 
+/* Screens */
 .screen {
   display: none;
+  animation: fadeIn 0.3s ease-in-out;
 }
 
 .screen.active {
   display: block;
 }
 
+/* Text */
 h1, h2 {
   text-align: center;
   color: #3A2E2E;
@@ -28,13 +32,15 @@ p {
   color: #7A7A7A;
 }
 
+/* Buttons */
 button {
   width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  border-radius: 10px;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 12px;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .primary {
@@ -48,30 +54,50 @@ button {
   color: #6F4E37;
 }
 
+/* Grid Layout */
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
+/* Cards */
 .card {
   background: white;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 16px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.2s;
 }
 
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* List Items */
 .list .item {
   background: white;
   padding: 15px;
   margin: 10px 0;
-  border-radius: 10px;
+  border-radius: 12px;
   cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+/* Summary Box */
 .summary {
   background: white;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 16px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
